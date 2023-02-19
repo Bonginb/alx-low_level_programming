@@ -3,15 +3,18 @@
 /**
  * main - main function
  *
- * Return: 0
+ * Return: Always 0
  */
 
 int main(void)
 {
-	char i;
+	char alp[26] = "abcdefghijklmnopqrstuvwxyz";
+	int i;
 
-	for (i = 'a' : i <= 'z' : i++)
-		putchar(i);
-	putchar("\n");
+	for (i = 0; i < 26; i++)
+	{
+		putchar(alp[i]);
+	}
+	putchar('\n');
 	return (0);
 }
