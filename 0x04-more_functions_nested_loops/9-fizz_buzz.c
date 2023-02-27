@@ -2,8 +2,8 @@
 #include <stdio.h>
 
 /**
- * main - Prints a Fixx Buzz program
- * Return always 0
+ * main - Prints a Fizz Buzz program
+ * Return: always 0
  */
 
 int main(void)
