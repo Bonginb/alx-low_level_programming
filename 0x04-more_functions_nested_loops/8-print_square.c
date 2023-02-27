@@ -20,9 +20,9 @@ void print_square(int size)
 	{
 	for (y = 0; y < size; y++)
 	{
-	_puthcar(35);
+	_putchar(35);
 	}
-	_puthcar('\n');
+	_putchar('\n');
 	}
 	}
 }
