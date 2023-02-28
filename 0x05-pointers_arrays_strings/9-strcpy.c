@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * char *_strcpy - Copy a string
+ * *_strcpy - Copy a string
  * @dest: Destination value
  * @src: Source value
  * Return: the pointer to dest
@@ -14,7 +14,7 @@ char *_strcpy(char *dest, char *src)
 
 	while (*(src + l) != '\0')
 	{
-		l++
+		l++;
 	}
 	for (; x < l; x++)
 	{
