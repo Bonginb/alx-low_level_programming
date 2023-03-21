@@ -5,12 +5,12 @@ int _strlen(char *s);
 char *_strcpy(char *dest, char *src);
 
 /**
- * new_dog - ...
- * @name: ...
- * @age: ...
- * @owner: ...
+ * new_dog - New dog
+ * @name: The name of the dog
+ * @age: The age of the dog
+ * @owner: The owner of the dog
  *
- * Return: ...
+ * Return: Nothing
  */
 dog_t *new_dog(char *name, float age, char *owner)
 {
@@ -70,7 +70,8 @@ int _strlen(char *s)
 	return (c);
 }
 
-/**_strcpy - Copy a string
+/**
+ * _strcpy - Copy a string
  * @dest: Destination value
  * @src: Source value
  *
